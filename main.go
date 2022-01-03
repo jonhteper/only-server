@@ -12,6 +12,7 @@ func main() {
 	args := flag.Args()
 	if len(args) < 2 {
 		fmt.Println("Use only-server <port> <local-dir>")
+		return
 	}
 	port := args[0]
 
