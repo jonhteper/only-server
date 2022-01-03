@@ -1,2 +1,10 @@
 # only-server
- Only a Server
+ Just run
+```
+only-server <port> <local-dir> 
+```
+
+## Example
+```
+only-server 8080 ~/my-project
+```
